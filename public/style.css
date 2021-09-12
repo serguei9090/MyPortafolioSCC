@@ -266,7 +266,10 @@ body{
 .project-link {
     color: #fff;
     text-decoration: none;
-
+}
+.skill-link {
+    color: #fff;
+    text-decoration: none;
 }
 
 .project, .contact{
@@ -347,6 +350,10 @@ body{
 .project-card.hide{
     display: none;
 }
+.project-link.hide{
+    display: none;
+}
+
 /* contact form */
 
 .contact-form{

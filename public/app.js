@@ -59,9 +59,9 @@ filters.forEach(filterBtn => {
         let projectCards = document.querySelectorAll('.project-card');
         projectCards.forEach(card => {
             if(card.getAttribute('data-tags').includes(id)){
-                card.classList.remove('hide');
+                card.parentNode.classList.remove('hide');
             } else{
-                card.classList.add('hide');
+                card.parentNode.classList.add('hide');
             }
         })
 

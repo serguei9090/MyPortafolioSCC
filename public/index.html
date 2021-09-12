@@ -180,19 +180,21 @@
 
 <!-- contact form -->
 <section class="contact" data-aos="fade-down" data-aos-duration="800" id="contact-section">
+    <form action="https://formspree.io/f/xzbyoprn" method="POST" role="form">
     <h2 class="heading">Contact<span class="highlight"> me</span></h2>
     <p class="sub-heading">Lorem ipsum dolor sit amet consectetur. </p>
     <div class="seperator"></div>
 
     <div class="contact-form">
         <div class="name">
-            <input type="text" class="first-name" required placeholder="first name">
-            <input type="text" class="last-name" required placeholder="last name">
+            <input type="text" name="_fname" class="first-name" data-rule="minlen:2" required placeholder="first name">
+            <input type="text" name="_lname" class="last-name" required placeholder="last name">
         </div>
-        <input type="email" required class="email" placeholder="email">
-        <textarea class="message" placeholder="message" required></textarea>
-        <button class="btn contact-btn">contact</button>
+        <input type="email" name="_replyto" required class="email" data-rule="email" placeholder="email">
+        <textarea class="message" name="message" placeholder="message" required data-rule="required"></textarea>
+        <button type="submit" class="btn contact-btn">contact</button>
     </div>
+</form>
 </section>
 
 <footer class="footer">made with love by modern web and modified by Serguei</footer>

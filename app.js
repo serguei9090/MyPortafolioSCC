@@ -38,13 +38,15 @@ const projectContainer = document.querySelector('.project-container');
 
 projects.forEach(project => {
     projectContainer.innerHTML += `
+    <a class="project-link" href="${project.link}">
     <div class="project-card" data-tags="#all, ${project.tags}">
-        <img src="img/${project.image}" alt="">
-        <div class="content">
+    <img src="img/${project.image}" alt="">
+    <div class="content">
             <h1 class="project-name">${project.name}</h1>
             <span class="tags">${project.tags}</span>
-        </div>
+        </div> 
     </div>
+    </a>
     `;
 })
 // filters
@@ -57,9 +59,9 @@ filters.forEach(filterBtn => {
         let projectCards = document.querySelectorAll('.project-card');
         projectCards.forEach(card => {
             if(card.getAttribute('data-tags').includes(id)){
-                card.classList.remove('hide');
+                card.parentNode.classList.remove('hide');
             } else{
-                card.classList.add('hide');
+                card.parentNode.classList.add('hide');
             }
         })
 

@@ -43,7 +43,7 @@
 <section class="about"  id="about-section">
     <div data-aos="fade-down" data-aos-duration="800">
     <h2 class="heading">KEY <span class="highlight">SKILLS</span></h2>
-    <p class="sub-heading">I do not fear computers; What I fear is the lack of them. </p>
+    <p class="sub-heading">"I do not fear computers; What I fear is the lack of them."</p>
     <p class="sub-heading">Isaac Asimov </p>
     <div class="seperator"></div>
     </div>
@@ -74,8 +74,8 @@
 <section class="project" id="project-section">
     <div data-aos="fade-down" data-aos-duration="800">
     <h2 class="heading">Project<span class="highlight">s</span></h2>
-    <p class="sub-heading">There are three essentials to leadership:</p>
-    <p class="sub-heading">Humility, Clarity and Courage </p>
+    <p class="sub-heading">"There are three essentials to leadership:</p>
+    <p class="sub-heading">Humility, Clarity and Courage"</p>
     <div class="seperator"></div>
 </div>
     <div class="filters">
@@ -180,24 +180,36 @@
 
 <!-- contact form -->
 <section class="contact" data-aos="fade-down" data-aos-duration="800" id="contact-section">
+    <form class="email-form" action="https://formspree.io/f/xzbyoprn" method="POST" role="form">
     <h2 class="heading">Contact<span class="highlight"> me</span></h2>
-    <p class="sub-heading">Lorem ipsum dolor sit amet consectetur. </p>
+    <p class="sub-heading">
+        "Your goal as a company is not only to have the best customer service, but to be legendary." </p>
+        <p class="sub-heading">Sam Walton</p>
     <div class="seperator"></div>
 
     <div class="contact-form">
-        <div class="name">
-            <input type="text" class="first-name" required placeholder="first name">
-            <input type="text" class="last-name" required placeholder="last name">
+        <div class="name form-group">
+            <input type="text" name="_fname" class="first-name" data-rule="minlen:2" required placeholder="first name">
+            <input type="text" name="_lname" class="last-name" data-rule="minlen:2" required placeholder="last name">
         </div>
-        <input type="email" required class="email" placeholder="email">
-        <textarea class="message" placeholder="message" required></textarea>
-        <button class="btn contact-btn">contact</button>
+        <input type="email" name="_replyto" required class="email" data-rule="email" placeholder="email">
+        <textarea class="message" name="message" placeholder="message" required data-rule="required"></textarea>
+        <div class="col-md-12 mb-3">
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+          </div>
+        <button type="submit" class="btn contact-btn">contact</button>
     </div>
+</form>
 </section>
 
 <footer class="footer">made with love by modern web and modified by Serguei</footer>
 </body>
 <script src="jQuery.nav/jquery.min.js"></script>
+<script src="vendors/validate.js"></script>
 <script src="aos/aos.js"></script>
 <script src="project.js"></script>
 <script src="app.js"></script>

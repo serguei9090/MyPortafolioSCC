@@ -26,8 +26,8 @@ let projects = [
     {
         name: "Web Catalog generator",
         tags: "#Python, #Scripting, Jinja2",
-        image: "Add_Number_img.png",
-        link: "https://github.com/serguei9090/Add_Number_To_Img_Py",
+        image: "Make Web Catalog.png",
+        link: "#",
     },
     {
         name: "Add Number to img",
@@ -69,14 +69,14 @@ let projects = [
     {
         name: "Make Folder List",
         tags: "#Python, #Scripting",
-        image: "Add_Number_img.png",
+        image: "Make Folder List.png",
         link: "#",
     },
     {
         name: "Video Editor",
-        tags: "#Python, #Scripting",
-        image: "Add_Number_img.png",
-        link: "#",
+        tags: "#WEB, #PremierePro",
+        image: "VideoEditor.png",
+        link: "https://www.instagram.com/modernwonders.llc/",
     },
 
     {

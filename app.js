@@ -76,24 +76,24 @@ const lastName = document.querySelector('.last-name');
 const email = document.querySelector('.email');
 const msg = document.querySelector('.message');
 
-contactBtn.addEventListener('click', () => {
-    if(firstName.value.length && lastName.value.length && email.value.length && msg.value.length){
-        fetch('/mail', {
-            method: 'post',
-            headers: new Headers({'Content-Type': 'application/json'}),
-            body: JSON.stringify({
-                firstname: firstName.value,
-                lastname: lastName.value,
-                email: email.value,
-                msg: msg.value,
-            })
-        })
-        .then(res => res.json())
-        .then(data => {
-            alert(data);
-        })
-    }
-})
+// contactBtn.addEventListener('click', () => {
+//     if(firstName.value.length && lastName.value.length && email.value.length && msg.value.length){
+//         fetch('/mail', {
+//             method: 'post',
+//             headers: new Headers({'Content-Type': 'application/json'}),
+//             body: JSON.stringify({
+//                 firstname: firstName.value,
+//                 lastname: lastName.value,
+//                 email: email.value,
+//                 msg: msg.value,
+//             })
+//         })
+//         .then(res => res.json())
+//         .then(data => {
+//             alert(data);
+//         })
+//     }
+// })
 //toggle button
 const toggleBtn = document.querySelector('.toggle-btn');
 const linkContainer = document.querySelector('.links-container');

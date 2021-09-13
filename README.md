@@ -1,2 +1,3 @@
 # [MyPortafolio](https://serguei9090.github.io/MyPortafolioSCC/ "MiPortafolio")
- MyPortafolio Works Sample
+ MyPortafolio is a Work Samples Works Sample
+ # Thanks

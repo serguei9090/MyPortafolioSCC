@@ -27,7 +27,7 @@ let projects = [
         name: "Web Catalog generator",
         tags: "#Python, #Scripting, Jinja2",
         image: "Make Web Catalog.png",
-        link: "#",
+        link: "https://github.com/serguei9090/Jinja2py-WebCatalog-Build",
     },
     {
         name: "Add Number to img",

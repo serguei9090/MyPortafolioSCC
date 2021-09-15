@@ -42,10 +42,10 @@ let projects = [
         link: "#",
     },
     {
-        name: "Get time of ejecution",
+        name: "Bat time of ejecution",
         tags: "#MS-DOS, #Scripting",
         image: "Get-Time-Bat.png",
-        link: "#",
+        link: "https://github.com/serguei9090/Calc_Time_of_ejecution_of_bat_scripts",
     },
     {
         name: "Forms & Buttons Test",
@@ -70,7 +70,7 @@ let projects = [
         name: "Make Folder List",
         tags: "#Python, #Scripting",
         image: "Make Folder List.png",
-        link: "#",
+        link: "https://github.com/serguei9090/Folder_List_md",
     },
     {
         name: "Video Editor",

@@ -39,7 +39,7 @@ let projects = [
         name: "Get&Put Folder Size",
         tags: "#Python, #Scripting",
         image: "Get&Put Folder Size.png",
-        link: "#",
+        link: "https://github.com/serguei9090/Folder_Size_on_name",
     },
     {
         name: "Get time of ejecution",

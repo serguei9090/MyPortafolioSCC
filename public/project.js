@@ -79,12 +79,12 @@ let projects = [
         link: "https://www.instagram.com/modernwonders.llc/",
     },
 
-    {
-        name: "Watermark",
-        tags: "#MS-DOS, #FFmpeg, #Scripting",
-        image: "Get-Time-Bat.png",
-        link: "#",
-    },
+    // {
+    //     name: "Watermark",
+    //     tags: "#MS-DOS, #FFmpeg, #Scripting",
+    //     image: "Get-Time-Bat.png",
+    //     link: "#",
+    // },
 
     // +8 more
 ]

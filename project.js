@@ -42,7 +42,7 @@ let projects = [
         link: "https://github.com/serguei9090/Folder_Size_on_name",
     },
     {
-        name: "Bat time of ejecution",
+        name: "Get time of ejecution",
         tags: "#MS-DOS, #Scripting",
         image: "Get-Time-Bat.png",
         link: "https://github.com/serguei9090/Calc_Time_of_ejecution_of_bat_scripts",

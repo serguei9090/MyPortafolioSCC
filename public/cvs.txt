@@ -1,0 +1,8 @@
+data_analysis
+full_stack
+property_manager_ru
+sales_manager
+sport
+video_editor
+
+start page

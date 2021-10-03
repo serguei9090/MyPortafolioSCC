@@ -102,6 +102,15 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.classList.toggle('active');
     linkContainer.classList.toggle('show');
 })
+//Language ToggleBtn
+const toggleBtns = document.querySelector('.dropdownbt');
+const dropdownContents = document.querySelector('.dropdown-content');
+
+toggleBtns.addEventListener('click', () => {
+    toggleBtns.classList.toggle('active');
+    dropdownContents.classList.toggle('show');
+})
+
 
 //Init AOS Animation
 AOS.init({
